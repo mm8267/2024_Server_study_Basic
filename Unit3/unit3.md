@@ -3,17 +3,18 @@
 ## ❗️ 강의 수강 여부
 수강한 강의에 체크표시 해주세요~
 
-- [ ] 리눅스
-- [ ] URL,URI
-- [ ] AWS
-- [ ] 프록시 서버
-- [ ] HTTPS
+- [x] 리눅스
+- [x] URL,URI
+- [x] AWS
+- [x] 프록시 서버
+- [x] HTTPS
 
 <br>
 
 ## ❗️ 3주차 과제
 1. AWS EC2 인스턴스 생성
    - 수행한 화면 혹은 내용을 작성해 주세요
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/171b4f74-ea3d-44a7-aa21-6d0db0e158e7)
 
 <br/>
 
