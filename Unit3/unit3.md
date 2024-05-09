@@ -20,11 +20,13 @@
 
 2. ssh 사용하여 ubuntu 인스턴스 외부 접속
    - 수행한 화면 혹은 내용을 작성해 주세요
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/02effe08-166e-42af-aa81-de75c55047dd)
 
 <br/>
 
 3. Nginx 패키지 설치 후 http 외부 접속
    - 수행한 화면 혹은 내용을 작성해 주세요
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/2798836d-538e-4081-bdfa-efb0b4bfa755)
 
 <br/>
 
