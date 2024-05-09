@@ -55,12 +55,13 @@ MS-SQL, MySQL, MariaDB, Oracle 등
 
 3. ERD 설계하기
    - 2번에서 진행한 내용을 바탕으로 직적 ERD 제작 툴을 사용해 작성해봅시다. (완성 후 캡쳐본 올리기)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/03481227-f04f-4e36-9e94-174feea90603)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/808dd68d-f0a7-4104-8ea4-aeb380fcf212)
+
 아직 작업 중 
 <br/>
 
 4. AWS RDS 구축하기
    - ERD를 바탕으로 내가 기존에 만들어둔 AWS에서 RDS를 만들어 봅시다. (완성 후 캡쳐본 올리기)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/09b78f9a-bdce-434d-8110-565d09bab467)
+
 아직 작업 중
 <br/>
