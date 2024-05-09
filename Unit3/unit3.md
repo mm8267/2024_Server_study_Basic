@@ -32,10 +32,13 @@
 
 4. 가비아 or 후이즈에서 domain 연결 (.shop 도메인)
    - 수행한 화면 혹은 내용을 작성해 주세요
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/832f2808-c695-4ae2-a08a-3de075def9a7)
 
 <br/>
 
 5. Redirection 적용 (IP to Domain)
    - 수행한 화면 혹은 내용을 작성해 주세요
+어떻게 하는지 모르겠습니다
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/def0df3c-dcf4-4bdb-84fb-490bcc1df66a)
 
 <br/>
