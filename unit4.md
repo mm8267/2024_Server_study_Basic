@@ -46,8 +46,7 @@ MS-SQL, MySQL, MariaDB, Oracle 등
 ![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/2cf1e2b6-bb98-4be8-b4aa-33d221400e2d)
 ![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/90852190-18b2-4c37-8c30-bc7ebd7edbac)
 ![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/f28d0b3f-085a-418b-98a9-0fec3c70af86)
-![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/fcb4f974-bf6e-4412-9db1-aeee90e36c08)
-![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/e762a880-4be1-44bf-89ef-813bf8b9bf14)
+
 
 1. 로그인 페이지:
 * entity: Users
