@@ -86,6 +86,7 @@ MS-SQL, MySQL, MariaDB, Oracle 등
 
 4. AWS RDS 구축하기
    - ERD를 바탕으로 내가 기존에 만들어둔 AWS에서 RDS를 만들어 봅시다. (완성 후 캡쳐본 올리기)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/c20f55f9-2eec-42ef-9c7e-b8dd7d8c36e7)
 
 아직 작업 중
 <br/>
