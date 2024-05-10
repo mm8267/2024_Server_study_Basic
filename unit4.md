@@ -1,4 +1,4 @@
-### ⭐️ 4주차 과제 제출 ⭐️
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/fcb4f974-bf6e-4412-9db1-aeee90e36c08)![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/e762a880-4be1-44bf-89ef-813bf8b9bf14)### ⭐️ 4주차 과제 제출 ⭐️
 
 ## ❗️ 강의 수강 여부
 수강한 강의에 체크표시 해주세요~
@@ -39,25 +39,49 @@ MS-SQL, MySQL, MariaDB, Oracle 등
 
 2. 원하는 서비스(당근마켓, 인스타그램 등) 분석하기
    - 원하는 서비스를 하나 타겟팅 후 페이지 4장가량을 선정하고 (캡쳐본 올리기) 데이터베이스에 들어갈 내용을 적어주세요.
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/04c267cf-8ab6-432f-a44f-1d1c9225d69f)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/641c2797-e082-44b7-8aed-40481980b752)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/87b6b6c6-b77e-448f-88ef-fb49326cd218)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/3dd34ab4-1fb8-472f-9bc6-c5ee6b46cee2)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/f5917092-63bd-432f-8313-5a2c6c56f1bb)
-![image](https://github.com/GDSC-Hanyang/2024_Server_study_Basic/assets/145014275/35633307-1686-43f1-87df-49efc5cbef2b)
-1. 계정 생성 화면: 사용자가 새 계정을 생성하기 위한 초기 단계. 전화번호 또는 이메일을 통해 계정을 만들 수 있음, 국가 선택과 다음 버튼이 있음.
-2. 이름 및 프로필 설정 화면: 사용자 이름을 설정하는 화면. 프로필 구성
-3. 신규 계정 기본 화면: 새로 생성된 계정의 메인 페이지. 게시물, 팔로워, 팔로잉 수가 모두 0인 초기 상태
-4. 계정 설정 화면: 사용자가 계정의 세부 설정을 조정할 수 있는 메뉴. 프로필 편집, 비밀번호 변경, 보안 설정 가능
-5. 프로필 편집 화면: 사용자가 자신의 공개 프로필 정보를 수정할 수 있는 화면. 이름, 사용자 이름, 소개 등을 변경 가능
-6. 다른 사용자의 인스타그램 포스트 화면: 다른 사용자가 올린 게시물을 보여주는 화면. 좋아요 수, 캡션, 해시태그 등의 정보가 포함되어있음.
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/40b38cd0-47dd-4c47-9dfc-0469bdad9010)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/5f98d3df-ca9a-4f19-9f0e-598a7586b6bd)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/124a95ca-cfb6-4987-a316-6f0e62a7a4c3)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/210c0f79-8cee-4dcd-99ba-92d7f027f96c)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/2cf1e2b6-bb98-4be8-b4aa-33d221400e2d)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/90852190-18b2-4c37-8c30-bc7ebd7edbac)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/f28d0b3f-085a-418b-98a9-0fec3c70af86)
+
+
+1. 로그인 페이지:
+* entity: Users
+* 속성: UserID, Password, Email, SocialLoginType
+* 기능: 사용자 로그인 정보 확인 및 소셜 로그인 연동
+2. 메인 페이지:
+* entity: Products, Promotions
+* 속성: ProductID, Name, Price, DiscountRate, PromotionDetails
+* 기능: 제품 및 프로모션 정보 표시, 다양한 할인 혜택 및 추천 제품 목록 제공
+3. 사용자 프로필 페이지:
+* entity: Users, Wishlist, Posts
+* 속성: UserID, Username, ProfileImage, WishlistID, PostID
+* 기능: 사용자 프로필 정보, 사용자의 위시리스트, 게시물 조회
+4. 상품 목록 페이지:
+* entity: Products, Categories
+* 속성: ProductID, Name, Price, CategoryID, ImageURL, StockStatus
+* 기능: 카테고리별 제품 목록 제공, 제품 검색 및 필터링
+5. 상품 상세 페이지:
+* entity: Products, ProductDetails, Reviews, Comments
+* 속성: ProductID, Description, Price, DiscountRate, ReviewID, CommentID
+* 기능: 상품 상세 정보, 리뷰, 사용자 댓글 및 평점 표시
+6. 리뷰 section:
+* entity: Reviews
+* 속성: ReviewID, UserID, ProductID, Rating, Content, DatePosted
+* 기능: 상품에 대한 사용자 리뷰 및 평점 표시
+7. 문의 section:
+* entity: Questions, Answers
+* 속성: QuestionID, AnswerID, UserID, ProductID, Content, DatePosted
+* 기능: 상품 관련 질문 및 답변 제공
 <br/>
 
 3. ERD 설계하기
    - 2번에서 진행한 내용을 바탕으로 직적 ERD 제작 툴을 사용해 작성해봅시다. (완성 후 캡쳐본 올리기)
-![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/808dd68d-f0a7-4104-8ea4-aeb380fcf212)
+![image](https://github.com/mm8267/2024_Server_study_Basic/assets/144704798/4978393f-1978-485c-a21e-d5430c93c9c4)
 
-아직 작업 중 
 <br/>
 
 4. AWS RDS 구축하기
